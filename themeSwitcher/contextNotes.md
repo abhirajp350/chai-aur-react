@@ -138,4 +138,8 @@ export default {
 
 
 ```
+## Remember to add tailwind configuration to your main css file to apply tailwind dark and light mode functionlity, which is
 
+```
+@custom-variant dark (&:where(.dark, .dark *));
+```
